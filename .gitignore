@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Large data files
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Paper drafts and outputs
+#notebooks_cvd/
+#data_cvd/
+
