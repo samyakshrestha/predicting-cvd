@@ -209,11 +209,13 @@ __marimo__/
 
 # Large data files
 *.csv
+!data_cvd/combined_final/final_combined_all_variables_reduced.csv
 *.tsv
 *.parquet
 *.feather
 *.pkl
 *.joblib
+*.tex
 
 # Notebook checkpoints
 .ipynb_checkpoints/
@@ -224,4 +226,13 @@ __marimo__/
 # Paper drafts and outputs
 #notebooks_cvd/
 #data_cvd/
+
+# Paper folder (LaTeX source, submitted separately)
+paper/
+
+# Generated choropleth scripts
+*.py
+
+# Project instructions (internal use only)
+CLAUDE.md
 
