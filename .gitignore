@@ -215,7 +215,7 @@ __marimo__/
 *.feather
 *.pkl
 *.joblib
-*.tex
+#*.tex
 
 # Notebook checkpoints
 .ipynb_checkpoints/
@@ -224,8 +224,8 @@ __marimo__/
 .DS_Store
 
 # Paper drafts and outputs
-#notebooks_cvd/
-#data_cvd/
+notebooks_cvd/
+data_cvd/
 
 # Paper folder (LaTeX source, submitted separately)
 paper/
@@ -235,4 +235,4 @@ paper/
 
 # Project instructions (internal use only)
 CLAUDE.md
-
+AGENTS.md
